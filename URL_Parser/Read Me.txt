@@ -1,0 +1,18 @@
+How to run the WebReaderApplication:
+
+1: Enter the flags -i, -o, and -d for each file you are using in the program respectively, and a space / " " followed by the file locations or file names (if they are in the same directory of this application folder).
+
+    Example:
+
+    1.1 javac WebReaderApplication.java
+
+    1.2 java WebReaderApplication -i inputFilePath -o outputFilePath -d saveFolderPath
+
+
+2: Make sure that the links exist and there is no block or unsafe redirects that prevents the program from accessing the actual page.
+
+3: Make sure that the input file has no blank lines in between the urls or it will throw a null error.
+
+4: Make sure that the urls have no breaks inside them or it will throw an error.
+
+
